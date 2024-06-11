@@ -1,0 +1,145 @@
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css">
+    <title>EZSIP-INICIO</title>
+    <style>
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+
+        header {
+            background-color: transparent; 
+            color: #000000;
+            padding: 1em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; 
+            word-spacing: 20px;
+        }
+
+
+        .header-logo img {
+            max-height: 80px; 
+        }
+
+
+        header::after {
+            content: ''; 
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px; 
+            background-color: #000000; 
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1em;
+        }
+
+        nav ul li a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+
+        main {
+            display: flex;
+            justify-content: space-between; 
+            align-items: flex-start; 
+            padding: 2em;
+        }
+
+        section {
+            margin-bottom: 2em;
+        }
+
+        #INICIO {
+            text-align: left; 
+            font-size: 20px;
+        }
+
+        #INICIO h1 {
+            font-size: 3em; 
+            font-weight: bold;
+        }
+
+
+        .image-container {
+            flex: 1; 
+            display: flex;
+            justify-content: flex-end; 
+            align-items: center;
+        }
+
+        .image-container img {
+            max-width: 100%; 
+            max-height: 80vh; 
+        }
+
+        .palmleaf {
+            position: absolute;
+            top:0px;
+            right:0px;
+            height:300px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-logo img">
+            <img src="ezsip.png" alt="PESO">
+        </div>
+        <div></div>
+        <nav>
+            <ul>
+                <li><a href="ParInf2.html">INICIO</a></li>
+                <li><a href="ParInf2C.html">CATALOGO</a></li>
+                <li><a href="ParInfP.html">PEDIR!</a></li>
+                <li><a href="ParInf2N.html">NOSOTROS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body background="fondoo.webp">
+    <main>
+        <section id="INICIO">
+            <h1>VACILA CON EZSIP!</h1>
+            <p>La tienda online numero 1 con destapadores</p>
+        </section>
+
+        <section id="CATALOGO">
+            <div class="image-container">
+                <img src="chancla.png" alt="Catalogo Image">
+            </div>
+        </section>
+
+        <section id="PEDIR">
+     
+        </section>
+
+        <section id="NOSOTROS">
+
+        </section>
+    </main>
+    <img class="palmleaf" src="palmr.png">
+    <footer>
+        <p>&copy; 2024 EZSIP</p>
+    </footer>
+</body>
+</html>
